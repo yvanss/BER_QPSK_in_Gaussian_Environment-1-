@@ -1,0 +1,104 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1675156425" file="C:\MATLAB\DSP\Rabiner\DownloadAll\adpcm\adpcm\adpcm_GUI25.prj" location="C:\MATLAB\DSP\Rabiner\DownloadAll\adpcm\adpcm" name="adpcm_GUI25" target="target.mlapps" target-name="Package App">
+    <param.appname>adpcm_GUI25</param.appname>
+    <param.authnamewatermark>Speech Processing</param.authnamewatermark>
+    <param.email>speechprocessing2013@gmail.com</param.email>
+    <param.company>Rutgers University/Stanford University</param.company>
+    <param.icon>${PROJECT_ROOT}\adpcm_GUI25_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\adpcm_GUI25_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\adpcm_GUI25_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\adpcm_GUI25_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>Implements an ADPCM coder for waveform coding of speech</param.summary>
+    <param.description>Speech processing designates a team consisting of Prof. Lawrence Rabiner (Rutgers University and University of California, Santa Barbara), Prof. Ronald Schafer (Stanford University), Kirty Vedula and Siva Yedithi (Rutgers University). This exercise is one of a set of speech processing exercises that are intended to supplement the teaching material in the textbook “Theory and Applications of Digital Speech Processing” by L R Rabiner and R W Schafer. 
+This MATLAB exercise implements an Adaptive Differential Pulse Code Modulation (ADPCM) coder for waveform coding of speech signals.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\adpcm.JPG</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+    </param.products.name>
+    <param.products.id>
+      <item>'1'</item>
+    </param.products.id>
+    <param.products.version>
+      <item>8.5</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}\adpcm_GUI25.mlappinstall</param.output>
+    <param.guid>cd9ce9d0-45e6-4b9d-ba52-1a2e65090147</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\adpcm_GUI25.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Callbacks_adpcm_GUI25.m</file>
+      <file>${PROJECT_ROOT}\pd_spect.m</file>
+      <file>${PROJECT_ROOT}\quant1.m</file>
+      <file>${PROJECT_ROOT}\savewav.m</file>
+      <file>${PROJECT_ROOT}\sp_gram.m</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\5.8 ADPCM.pdf</file>
+      <file>${PROJECT_ROOT}\adpcm.JPG</file>
+      <file>${PROJECT_ROOT}\adpcm.mat</file>
+      <file>${PROJECT_ROOT}\adpcm_encode.mat</file>
+      <file>${PROJECT_ROOT}\Read_Me.txt</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\MATLAB\DSP\Rabiner\DownloadAll\adpcm\adpcm" name="adpcm_GUI25.mlappinstall" optional="false">C:\MATLAB\DSP\Rabiner\DownloadAll\adpcm\adpcm\adpcm_GUI25.mlappinstall</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2015a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

@@ -1,0 +1,5 @@
+var Mary = '{ "height":1.9, "age":36, "eyeColor":"brown"}';
+
+// use JSON.parse() to create an object 'objectMary':
+var objectMary = JSON.parse(Mary);
+alert(objectMary.age);

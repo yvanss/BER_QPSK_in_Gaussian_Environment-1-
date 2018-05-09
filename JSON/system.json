@@ -1,0 +1,7 @@
+var user = {
+	"username" : "laura123",
+	"city" : "New York",
+	"system" : "linux",
+	"income": "1 billion dollar" 
+};
+console.log("User " + user.username + " is located in " + user.city + " and uses " + user.system+" . He has an income of "+user.income);
