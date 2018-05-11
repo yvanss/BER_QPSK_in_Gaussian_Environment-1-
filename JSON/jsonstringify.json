@@ -1,6 +1,0 @@
-var conference = {
-	"startDay" : "Monday",
-	"nextDay" : "Tuesday",
-	"endDay" : "Wednesday"
-};
-alert(conference['endDay']);

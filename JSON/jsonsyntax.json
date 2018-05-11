@@ -1,7 +1,0 @@
-var clubMember = {
-	"firstname":"John",
-	"lastname":"Doe",
-	"memberStatus":"Full",
-	"city":"Bangangte"
-};
-alert(clubMember.city);

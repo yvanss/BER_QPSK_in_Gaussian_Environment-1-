@@ -1,7 +1,0 @@
-var Mary = new Object();
-Mary.height = 1.9;
-Mary.age = 36;
-Mary.eyecolor = "brown";
-
-// serialize the object using JSON.striniy():
-console.log(JSON.stringify(Mary));
